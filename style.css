@@ -159,35 +159,42 @@ body {
   }
 
   #profile {
-    background-color: #f4f4f4;
-    padding: 140px 20px;
-  }
+  background-color: #f4f4f4;
+  padding: 140px 20px;
+}
 
-  .profile-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
+.profile-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
-  .profile-description,
-  .profile-details {
-    width: 45%;
-  }
+.profile-description,
+.profile-details {
+  width: 45%;
+}
 
-  .profile-image {
-    width: 30%;
-  }
+.profile-image-container {
+  width: 30%; 
+  display: flex;
+  justify-content: center; 
+}
 
-  .profile-image img {
-    max-width: 100%;
-    border-radius: 10%;
-  }
+.profile-image {
+  max-width: 100%; 
+  border-radius: 10%;
+  display: none; 
+}
 
-  .download-cv {
-    padding: 10px;
-    background-color: darkviolet; 
-    border-radius: 10px;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
+.profile-image:first-child {
+  display: block; 
+}
+
+.download-cv {
+  padding: 10px;
+  background-color: darkviolet; 
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
