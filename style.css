@@ -158,43 +158,44 @@ body {
     transform: none;
   }
 
-#profile {
-  background-color: #f4f4f4;
-  padding: 140px 20px;
-}
-
-.profile-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.profile-description,
-.profile-details {
-  width: 45%;
-}
-
-.profile-image-container {
-  width: 30%; 
-  display: flex;
-  justify-content: center; 
-}
-
-.profile-image {
-  max-width: 100%; 
-  border-radius: 10%;
-  display: none; 
-}
-
-.profile-image:first-child {
-  display: block; 
-}
-
-.download-cv {
-  padding: 10px;
-  background-color: darkviolet; 
-  border-radius: 10px;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-}
+  #profile {
+    background-color: #f4f4f4;
+    padding: 140px 20px;
+  }
+  
+  .profile-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .profile-description {
+    width: 50%; 
+    padding: 10px 10px;
+  }
+  
+  .profile-image-container {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profile-image {
+    max-width: 100%;
+    border-radius: 10%;
+    display: none;
+  }
+  
+  .profile-image:first-child {
+    display: block;
+  }
+  
+  .download-cv {
+    padding: 10px;
+    background-color: darkviolet; 
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
