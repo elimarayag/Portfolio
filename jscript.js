@@ -15,4 +15,4 @@ function toggleMenu() {
     }
 
     showNextImage();
-    setInterval(showNextImage, 1000); 
+    setInterval(showNextImage, 900); 
